@@ -1,8 +1,0 @@
-function ibk_klappbox(divid,seconds) {
-	new Effect.toggle(divid, 'Slide', {duration: seconds, afterUpdate: ccRedraw });
-}
-
-function ccRedraw() {
-	if (typeof(curvyCorners) != "undefined")
-		curvyCorners.redraw();
-}
