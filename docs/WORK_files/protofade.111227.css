@@ -1,0 +1,90 @@
+.protofade { 
+	margin: auto;
+	position: relative; 
+	padding: 0px; 
+	overflow: hidden; 
+	text-align: center;
+}
+
+
+.protofade li { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	margin: 0; 
+	padding: 0; 
+	background: none;
+	list-style-type: none;
+}
+
+a.ibk_pf_next, 
+a.ibk_pf_previous, 
+a.ibk_pf_start, 
+a.ibk_pf_stop { 
+	cursor: pointer; 
+	display: block; 
+	margin: 0px 10px 10px 15px; 
+	float: left; 
+	width: 27px;
+	height: 29px;
+  outline: 0px;
+	text-decoration: none !important;
+	
+}
+
+.ibk_pf_next:hover, .ibk_pf_previous:hover, .ibk_pf_start:hover, .ibk_pf_stop:hover { 
+	opacity: 1 !important;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100) !important;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100) !important;
+  filter: Alpha(Opacity=100) !important;
+}
+
+
+.ibk_pf_controls {
+	height: 20px;
+	margin-top: 10px;
+}
+
+.slider-container {
+	padding: 20px 20px 10px 20px; 
+	text-align: center;
+	margin-bottom: 20px;
+	border: 1px solid #CCCCCC;
+}
+
+.ibk_pf_span {
+	float: right;
+	color: #333333;
+	background-image: url('images/counter.png');
+	width: 52px;
+	height: 20px;
+	background-repeat: no-repeat;
+	margin-top: 3px;
+	opacity: 0.7;
+	
+}
+
+.slider-container a.ibk_pf_next { 
+	background-image: url('images/next_small.png');
+}
+
+
+
+.slider-container a.ibk_pf_previous { 
+	background-image: url('images/back_small.png');
+	margin: 0px 10px 10px 0px; 
+}
+
+
+.slider-container a.ibk_pf_start { 
+	background-image: url('images/auto_small.png');
+}
+
+
+.slider-container a.ibk_pf_stop { 
+	background-image: url('images/stop_small.png');
+}
+
+.protofade li {
+	color: #AAAAAA !important;
+}
